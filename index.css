@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    height: 100%;
+    background-color: rgb(251, 113, 133);
+    background: linear-gradient(to right, rgb(251, 113, 133), rgb(253, 186, 116));
+}
+
+body * {
+    font-family: "Roboto Mono", monospace;
+}
+
+#root {
+    margin: 5vh;
+    padding: 1vh;
+    border: outset 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+main {
+    padding: 5vh;
+    padding-top: 0;
+}
