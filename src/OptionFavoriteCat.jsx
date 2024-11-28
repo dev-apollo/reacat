@@ -1,5 +1,5 @@
 function OptionFavoriteCat(props){
-    return <option value={props.value}>{props.text}</option>
+    return <option key={props.value} value={props.value}>{props.text}</option>
 }
 
 export default OptionFavoriteCat

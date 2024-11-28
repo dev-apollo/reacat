@@ -1,0 +1,17 @@
+select {
+    width: 12vh;
+    height: 2vh;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+@media (max-width: 768px){
+    select {
+        width: 20vh;
+        height: 4vh;
+        border-radius: 5px;
+        font-weight: bolder;
+        font-size: 14px;
+    }   
+}
