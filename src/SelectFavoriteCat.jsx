@@ -11,9 +11,10 @@ function SelectFavoriteCat(){
         ["preto", "Preto"],
         ["branco", "Branco"]
     ])
-const handleChange = (event) => {
-    setSelectedColor(event.target.value)
-}
+    
+    const handleChange = (event) => {
+        setSelectedColor(event.target.value)
+    }
 
     return(
         <div>
